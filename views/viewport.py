@@ -3170,7 +3170,7 @@ class Viewport(QOpenGLWidget):
                         # one's address met its entry — the scale figure
                         # «transported» into an opened file (issue #75).
                         "_billboard_world", "_placement_proxies",
-                        "_arc_mid_by_mesh")
+                        "_arc_mid_by_mesh"'_placement_frames')
 
     def reset_document_caches(self) -> None:
         """Forget the previous document's chunks at the document boundary.
